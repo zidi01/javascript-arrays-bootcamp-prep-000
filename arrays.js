@@ -30,20 +30,21 @@ function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
   return chocolateBars;
 }
 
-function removeElementFromBeginningOfArray(chocolateBars) {
-  //
-  chocolateBars.slice(1);
-  return array;
+function removeElementFromBeginningOfArray(chocolateBars) { // 
+  // should've been added "chocolateBars =":)
+  chocolateBars = chocolateBars.slice(1);
+  return chocolateBars;
 }
 
-function destructivelyRemoveElementFromEndOfArray(chocolateBars) {
+function destructivelyRemoveElementFromEndOfArray(chocolateBars) { 
   chocolateBars.pop()
   return chocolateBars;
 }
 
 function removeElementFromEndOfArray(chocolateBars) {
-  //
-  chocolateBars.slice(0, chocolateBars.length -1);
+  // should've been added "chocolateBars =", too :)
+  chocolateBars = chocolateBars.slice(0, chocolateBars.length - 1);
   return chocolateBars;
+  // add 
 }
 
